@@ -7,6 +7,3 @@ class Solution:
 
         return string == string[::-1]
 
-prices = "A man, a plan, a canal: Panama"
-solution = Solution()
-print(solution.isPalindrome(prices))
