@@ -19,7 +19,3 @@ class Solution:
                     while nums[left] == nums[left - 1] and left < right:
                         left += 1
         return ans
-
-nums = [-1,0,1,2,-1,-4]
-sol = Solution()
-print(sol.threeSum(nums))
