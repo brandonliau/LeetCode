@@ -11,4 +11,4 @@ class Solution:
                 right -= 1
                 maxright = max(maxright, height[right])
                 ans += maxright - height[right]
-        return ans            
+        return ans
