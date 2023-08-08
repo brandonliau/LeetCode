@@ -6,3 +6,4 @@ class Solution:
             if remain in numDict:
                 return [i, numDict[remain]]
             numDict[value] = i
+            

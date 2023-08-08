@@ -8,4 +8,6 @@ class Solution:
                 left += 1
             temp.add(s[i])
             ans = max(ans, len(temp))
+            
         return ans
+    

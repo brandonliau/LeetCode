@@ -8,4 +8,6 @@ class Solution:
                 while n + length in numset:
                     length += 1
                 maxlength = max(length, maxlength)
+
         return maxlength
+    

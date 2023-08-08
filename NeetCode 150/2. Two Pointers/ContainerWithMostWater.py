@@ -12,4 +12,6 @@ class Solution:
                 left += 1
             elif height[left] >= height[right]:
                 right -= 1
+        
         return ans
+    

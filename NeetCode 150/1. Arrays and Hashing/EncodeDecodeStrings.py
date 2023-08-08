@@ -5,8 +5,10 @@ class Solution:
     """
     def encode(self, strs):
         string = ""
+
         for item in strs:
             string += str(len(item)) + ':' + item
+            
         return string
 
     """
@@ -23,5 +25,6 @@ class Solution:
             length = int(str[i : j])
             ans.append(str[j + 1 : j + 1 + length])
             i = j + 1 + length
+
         return ans
     
